@@ -1,33 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/Javier/Rogue & Roll/Packages/manifest.json
+    m_FilePath: C:/Users/Javier/Documents/GitHub/RogueyRoll/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638779998601180359
-    m_Hash: 2626087532
+      ticks: 638803354351134185
+    m_Hash: 3468237699
   m_LockFileStatus:
-    m_FilePath: C:/Users/Javier/Rogue & Roll/Packages/packages-lock.json
+    m_FilePath: C:/Users/Javier/Documents/GitHub/RogueyRoll/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638779998601201261
-    m_Hash: 2926436591
+      ticks: 638803354351159082
+    m_Hash: 1009292081
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/Javier/Rogue & Roll/Packages
+m_ProjectPath: C:/Users/Javier/Documents/GitHub/RogueyRoll/Packages
 m_EditorVersion: 6000.0.30f1 (62b05ba0686a)
 m_ResolvedPackages:
-- packageId: com.unity.collab-proxy@2.7.1
+- packageId: com.unity.collab-proxy@2.5.2
   testable: 0
   isDirectDependency: 1
-  version: 2.7.1
+  version: 2.5.2
   source: 1
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.collab-proxy
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.collab-proxy
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -143,7 +143,6 @@ m_ResolvedPackages:
   - teams
   - version
   - vcs
-  - uvcs
   registry:
     id: main
     name: 
@@ -156,13 +155,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638751271186710000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.7/manual/index.html
+  datePublishedTicks: 638630364536670000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.5/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: cf9c21f84be18cbe2d6a93ec7cfbeb01b4310bbe
+    revision: c402e6396d3ea20ecb2d59eac908e7e0a30cd7e6
     path: 
   unityLifecycle:
     version: 2.5.2
@@ -175,44 +174,21 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: "{\"changelog\":\"### Added\\n\\n- You can now Shelve your selected
-    Pending Changes, inspect the shelves content, and apply them to your workspace.\\n-
-    You can now Shelve your Pending Changes when switching to another branch (or
-    changeset) and decide if you want to apply them automatically after the switch.\\n-
-    You can now create a code review from the list of branches (or changesets) opening
-    either the Desktop App or the Unity Cloud website.\\n\\n### Changed\\n\\n- Serialize
-    the Checkin comment and tick selection so they are kept on any domain reload
-    and play mode.\\n- Optimized incoming changes & merge to only reload the Package
-    Manager when needed.\\n- Added dedicated toolbar buttons to open the list of
-    branches and the Branch Explorer of the Desktop App.\\n- Reworded the changeset
-    context menu \\\"Undo this change\\\" to \\\"Revert this file to the previous
-    revision\\\" so it\u2019s more explicit.\\n- Moved the 'Unity Version Control'
-    menu item under 'Window'/'Version Control' submenu starting from Unity 6.1.\\n-
-    Improve the Create workspace window to suggest the matching Unity Cloud project
-    if it exists.\\n\\n### Fixed\\n\\n- Ensured ignore.conf is not being reformatted
-    when adding or removing an ignore rule, so it keeps empty lines and comments.\\n-
-    Fixed missing checked-out for renamed assets.\\n- Fixed rename asset leaves 'Added'
-    + 'Remove locally' status instead of 'Moved'.\\n- Fixed console error GUI Error:
-    Invalid GUILayout state in PlasticWindow view which is caused under some circumstances.\\n-
-    Fixed null exception on entering in Play Mode before creating the workspace.\\n-
-    Fixed lock statuses to correctly refresh in Project View and Inspector after
-    merging.\\n- Fixed a performance issue by preventing the ConfigureLogging call
-    on every domain reload when Unity Version Control is not used, reducing the load
-    time by ~200ms. .\\n- Fixed the create branch operation to work in Gluon mode
-    which uses partial workspaces.\"}"
+  upmReserved: '{"changelog":"### Fixed\n\n- Fix token renewal issue: Can''t obtain
+    a new token (Message: Invalid Refresh Token., Code: 132.104)"}'
   assetStore:
     productId: 
-  fingerprint: 50ac96531b6358586ccfdf8cc845939bf50d9fab
+  fingerprint: da7e55b87e08569f31766e7cabc37bc033c9c7f9
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.5.2
-    minimumUnityVersion: 2021.3.0f1
+    minimumUnityVersion: 2020.3.48f1
 - packageId: com.unity.feature.2d@2.0.1
   testable: 0
   isDirectDependency: 1
   version: 2.0.1
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.feature.2d
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.feature.2d
   assetPath: Packages/com.unity.feature.2d
   name: com.unity.feature.2d
   displayName: 2D
@@ -346,7 +322,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.31
   source: 1
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.ide.rider
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.ide.rider
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -407,11 +383,13 @@ m_ResolvedPackages:
     - 3.0.31
     - 3.0.34
     - 3.0.35
+    - 3.0.36
     compatible:
     - 3.0.31
     - 3.0.34
     - 3.0.35
-    recommended: 3.0.35
+    - 3.0.36
+    recommended: 3.0.36
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -467,7 +445,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.22
   source: 1
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.ide.visualstudio
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.ide.visualstudio
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -507,9 +485,11 @@ m_ResolvedPackages:
     - 2.0.20
     - 2.0.21
     - 2.0.22
+    - 2.0.23
     compatible:
     - 2.0.22
-    recommended: 2.0.22
+    - 2.0.23
+    recommended: 2.0.23
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -573,7 +553,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.11.2
   source: 1
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.inputsystem
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.inputsystem
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -642,11 +622,13 @@ m_ResolvedPackages:
     - 1.12.0
     - 1.13.0
     - 1.13.1
+    - 1.14.0
     compatible:
     - 1.11.2
     - 1.12.0
     - 1.13.0
     - 1.13.1
+    - 1.14.0
     recommended: 1.11.2
     deprecated: []
   dependencies:
@@ -730,7 +712,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.multiplayer.center
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.multiplayer.center
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -820,7 +802,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 17.0.3
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.render-pipelines.universal
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.render-pipelines.universal
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal RP
@@ -982,7 +964,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.4.5
   source: 1
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.test-framework
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.test-framework
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1147,7 +1129,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.7
   source: 1
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.timeline
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.timeline
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1333,7 +1315,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.ugui
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.ugui
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1425,7 +1407,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.5
   source: 1
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.visualscripting
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.visualscripting
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1544,7 +1526,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.accessibility
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -1611,7 +1593,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.ai
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1678,7 +1660,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.androidjni
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1744,7 +1726,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.animation
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1811,7 +1793,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.assetbundle
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1878,7 +1860,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.audio
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1945,7 +1927,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.cloth
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -2016,7 +1998,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.director
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -2091,7 +2073,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.imageconversion
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -2158,7 +2140,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.imgui
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -2225,7 +2207,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.jsonserialize
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -2292,7 +2274,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.particlesystem
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2359,7 +2341,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.physics
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2426,7 +2408,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.physics2d
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2493,7 +2475,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.screencapture
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2564,7 +2546,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.terrain
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2631,7 +2613,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.terrainphysics
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2706,7 +2688,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.tilemap
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2776,7 +2758,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.ui
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2843,7 +2825,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.uielements
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2926,7 +2908,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.umbra
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2993,7 +2975,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.unityanalytics
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -3067,7 +3049,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.unitywebrequest
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -3134,7 +3116,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -3209,7 +3191,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.unitywebrequestaudio
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -3284,7 +3266,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.unitywebrequesttexture
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -3359,7 +3341,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.unitywebrequestwww
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -3450,7 +3432,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.vehicles
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -3521,7 +3503,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.video
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -3600,7 +3582,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.vr
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.vr
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3681,7 +3663,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.wind
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -3748,7 +3730,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.xr
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3827,7 +3809,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.subsystems
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3898,7 +3880,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.modules.hierarchycore
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -3965,7 +3947,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 1
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.ext.nunit
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.ext.nunit
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -4044,7 +4026,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.render-pipelines.core
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.render-pipelines.core
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Core RP Library
@@ -4258,7 +4240,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.shadergraph
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.shadergraph
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -4461,7 +4443,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.render-pipelines.universal-config
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.render-pipelines.universal-config
   assetPath: Packages/com.unity.render-pipelines.universal-config
   name: com.unity.render-pipelines.universal-config
   displayName: Universal RP Config
@@ -4559,7 +4541,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 10.1.4
   source: 1
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.2d.animation
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.2d.animation
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -4693,6 +4675,7 @@ m_ResolvedPackages:
     - 9.1.1
     - 9.1.2
     - 9.1.3
+    - 9.2.0
     - 10.0.0-pre.1
     - 10.0.0-pre.2
     - 10.0.0
@@ -4811,7 +4794,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 5.0.3
   source: 1
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.2d.pixel-perfect
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.2d.pixel-perfect
   assetPath: Packages/com.unity.2d.pixel-perfect
   name: com.unity.2d.pixel-perfect
   displayName: 2D Pixel Perfect
@@ -4908,7 +4891,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 9.0.3
   source: 1
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.2d.psdimporter
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.2d.psdimporter
   assetPath: Packages/com.unity.2d.psdimporter
   name: com.unity.2d.psdimporter
   displayName: 2D PSD Importer
@@ -4997,6 +4980,7 @@ m_ResolvedPackages:
     - 8.0.3
     - 8.0.4
     - 8.0.5
+    - 8.1.0
     - 9.0.0-pre.1
     - 9.0.0-pre.2
     - 9.0.0
@@ -5085,7 +5069,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.2d.sprite
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.2d.sprite
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -5155,7 +5139,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 10.0.7
   source: 1
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.2d.spriteshape
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.2d.spriteshape
   assetPath: Packages/com.unity.2d.spriteshape
   name: com.unity.2d.spriteshape
   displayName: 2D SpriteShape
@@ -5251,6 +5235,7 @@ m_ResolvedPackages:
     - 9.0.3
     - 9.0.4
     - 9.0.5
+    - 9.1.0
     - 10.0.0-pre.1
     - 10.0.0-pre.2
     - 10.0.0
@@ -5349,7 +5334,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.2d.tilemap
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.2d.tilemap
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -5436,7 +5421,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.1.0
   source: 1
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.2d.tilemap.extras
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.2d.tilemap.extras
   assetPath: Packages/com.unity.2d.tilemap.extras
   name: com.unity.2d.tilemap.extras
   displayName: 2D Tilemap Extras
@@ -5582,7 +5567,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.1.6
   source: 1
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.2d.aseprite
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.2d.aseprite
   assetPath: Packages/com.unity.2d.aseprite
   name: com.unity.2d.aseprite
   displayName: 2D Aseprite Importer
@@ -5612,15 +5597,18 @@ m_ResolvedPackages:
     - 1.1.6
     - 1.1.7
     - 1.1.8
+    - 1.1.9
     - 1.2.0
     - 1.2.1
     - 1.2.2
     - 1.2.3
+    - 1.2.4
     compatible:
     - 1.1.6
     - 1.1.7
     - 1.1.8
-    recommended: 1.1.8
+    - 1.1.9
+    recommended: 1.1.9
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
@@ -5703,7 +5691,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.9.2
   source: 1
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.searcher
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.searcher
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
   displayName: Searcher
@@ -5789,7 +5777,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.8.18
   source: 1
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.burst
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.burst
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -5938,10 +5926,14 @@ m_ResolvedPackages:
     - 1.8.17
     - 1.8.18
     - 1.8.19
+    - 1.8.20
+    - 1.8.21
     compatible:
     - 1.8.18
     - 1.8.19
-    recommended: 1.8.19
+    - 1.8.20
+    - 1.8.21
+    recommended: 1.8.21
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
@@ -6009,7 +6001,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.3.2
   source: 1
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.mathematics
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.mathematics
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -6098,7 +6090,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.5.1
   source: 1
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.collections
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.collections
   assetPath: Packages/com.unity.collections
   name: com.unity.collections
   displayName: Collections
@@ -6162,6 +6154,7 @@ m_ResolvedPackages:
     - 1.3.1
     - 1.4.0
     - 1.5.1
+    - 1.5.2
     - 2.1.0-exp.4
     - 2.1.0-pre.2
     - 2.1.0-pre.6
@@ -6185,13 +6178,15 @@ m_ResolvedPackages:
     - 2.5.1
     - 2.5.2
     - 2.5.3
+    - 2.5.7
     - 2.6.0-exp.2
     compatible:
     - 2.5.1
     - 2.5.2
     - 2.5.3
+    - 2.5.7
     - 2.6.0-exp.2
-    recommended: 2.5.3
+    recommended: 2.5.7
     deprecated: []
   dependencies:
   - name: com.unity.burst
@@ -6270,7 +6265,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.1
   source: 2
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.rendering.light-transport
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.rendering.light-transport
   assetPath: Packages/com.unity.rendering.light-transport
   name: com.unity.rendering.light-transport
   displayName: Unity Light Transport Library
@@ -6366,7 +6361,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 9.0.7
   source: 1
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.2d.common
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.2d.common
   assetPath: Packages/com.unity.2d.common
   name: com.unity.2d.common
   displayName: 2D Common
@@ -6431,6 +6426,7 @@ m_ResolvedPackages:
     - 8.0.2
     - 8.0.3
     - 8.0.4
+    - 8.1.0
     - 9.0.0-pre.1
     - 9.0.0-pre.2
     - 9.0.0
@@ -6526,7 +6522,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.11.4
   source: 1
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.nuget.mono-cecil
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.nuget.mono-cecil
   assetPath: Packages/com.unity.nuget.mono-cecil
   name: com.unity.nuget.mono-cecil
   displayName: Mono Cecil
@@ -6608,7 +6604,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.3
   source: 1
-  resolvedPath: C:\Users\Javier\Rogue & Roll\Library\PackageCache\com.unity.test-framework.performance
+  resolvedPath: C:\Users\Javier\Documents\GitHub\RogueyRoll\Library\PackageCache\com.unity.test-framework.performance
   assetPath: Packages/com.unity.test-framework.performance
   name: com.unity.test-framework.performance
   displayName: Performance testing API
@@ -6674,8 +6670,10 @@ m_ResolvedPackages:
     - 3.0.1
     - 3.0.2
     - 3.0.3
+    - 3.1.0
     compatible:
     - 3.0.3
+    - 3.1.0
     recommended: 3.0.3
     deprecated: []
   dependencies:
